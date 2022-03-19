@@ -10,7 +10,7 @@ const { nextISSTimesForMyLocation } = require('./iss');
   
 // });
 
-// fetchCoordsByIP("68.147.173.202", (error,coordinates) => {
+// fetchCoordsByIP("hideIP", (error,coordinates) => {
 //   if (error) {
 //     console.log('Did not work', null);
 //     return;
@@ -18,7 +18,7 @@ const { nextISSTimesForMyLocation } = require('./iss');
 //   console.log('worked', coordinates);
   
 // });
-// const coords = { latitude: '50.9266', longitude: '-113.9726' };
+// const coords = { latitude: 'HideCoord', longitude: 'HideCoord' };
 // fetchISSFlyOverTimes(coords, (error, passTimes) => {
 //   if (error) {
 //     console.log('did not work', error);
